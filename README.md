@@ -22,6 +22,7 @@ Add [Inject] to your fields:
     [Inject] private AudioService _audio;
     [Inject(Scope=InjectScope.Parent)] private Rigidbody _rb;
 }`
+
 Attach InjectionObject component to your GameObject
 
 ⚡ **Performance Optimized**
